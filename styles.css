@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to bottom right, black, rgb(245, 166, 179)), 
+  url();
+  font-size: 10px;
+}
+
+li {
+  text-align: center;
+}
+
+.active-panel .panels {
+clear: both;
+position: relative;
+width: 100%;
+height: 40px;
+margin: 10px;
+padding: 20px;
+}
+
+.active {
+  text-align: center;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: monospace;
+}
+
+.form-group {
+  padding: 0px 20px 0px 20px;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.block {
+  text-align: center;
+  margin: 15px;
+  padding: 5px;
+  background-color: aliceblue;
+}
+
+.name {
+  font-size: 1.2em;
+}
+
+.info-box {
+    font-family: sans-serif;
+    width: 95%;
+    height: 400px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .info-box ul {
+    text-align: center;
+    padding-left: 0;
+    margin-top: 0;
+  }
+  
+  .info-box li {
+    text-align: center;
+    float: left;
+    list-style-type: none;
+    width: 150px;
+  }
+  
+  .info-box li a {
+    display: flex;
+    text-decoration: dashed;
+    width: 100%;
+    line-height: 3;
+    background-color: red;
+    color: black;
+    text-align: center;
+    transition: all 0.1s ease-in-out;
+  }
+
+  .info-box li a:hover {
+    background-color: #a60000;
+    color: white;
+  }
+  
+  .info-box li a.active {
+    background-color: #a60000;
+    color: white;
+  }
+
+  .info-box .panels {
+    height: 352px;
+    position: relative;
+    clear: both;
+  }
+
+  .info-box article {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    color: white;
+    background-color: #a60000;
+  }
+  
+  .info-box .active-panel {
+    z-index: 1;
+  }
+
+
+
+
+  button {
+    background-color: #dedede;
+  }
+  
+  button:active {
+    background-color: #333;
+    border-color: #333;
+    color: #eee;
+  }
+
+.website {
+margin: 15px;
+padding: 5px;
+background-color: aqua;
+}
+
+.footer {
+  margin: 50px;
+  padding: 5px;
+}

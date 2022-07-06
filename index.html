@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Makeup, Beauty">
+    <title>NYX Professional Makeup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="wrapper">
+    <header>
+        <div class="name">
+            <h1 id="nyx">NYX Professional Makeup</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="section">
+
+        <div class="info-box">
+            <ul>
+                <li><a href="#" class="active">Questionnaire</a></li>
+                <li><a href="#">Challenges</a></li>
+                <li><a href="#">Tab 3</a></li>
+            </ul>
+            <article class="active-panel panels">
+                <div class="form-group">
+                    <label id="first-name-label" for="name">Name</label>
+                    <input type="text" name="first-name" id="name" class="form-control" placeholder="First" required />
+                    <label id="last-name-label" for="name"></label>
+                    <input type="text" name="last-name" id="name" class="form-control" placeholder="Last" required />
+                </div>
+    
+                <div class="form-group">
+                    <label id="email-label" for="email">Email</label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Email" required />
+                </div>
+    
+                <div class="form-group">
+                        <label id="age-label" for="number">Age</label>
+                        <input type="number" name="age" id="number" min="18" max="99" class="form-control" />
+                </div>
+    
+                    <div class="form-group">
+                        <p>How often do you buy cosmetic products?</p>
+                        <select id="dropdown" name="role" class="form-control" required>
+                            <option disabled selected value>Select current position</option>
+                            <option value="">Very frequently</option>
+                            <option value="">Frequently</option>
+                            <option value="">Rarely</option>
+                            <option value="">Do not shop</option>
+                        </select>
+                    </div>
+    
+                    <div class="form-group">
+                        <p>Do you buy our prodects after watching its advertimes?</p>
+                        <label>
+                            <input name="user-recommend" value="definitely" type="radio" class="input-radio"
+                                checked />Definitely</label>
+                        <label>
+                            <input name="user-recommend" value="maybe" type="radio" class="input-radio" />Maybe</label>
+    
+                        <label>
+                            <input name="user-recommend" value="not-sure" type="radio" class="input-radio" />Not
+                            sure</label>
+                    </div>
+    
+                    <div class="form-group">
+                        <p>Do you use our products for professional makeup?</p>
+                        <select id="dropdown" name="role" class="form-control" required>
+                            <option disabled selected value>Select current position</option>
+                            <option value="">Yes</option>
+                            <option value="">No</option>
+                        </select>
+                    </div>
+    
+                    <div class="form-group">
+                        <p>Do you recommend our products depending on your past experience?</p>
+                        <label>
+                            <input name="user-recommend" value="definitely" type="radio" class="input-radio"
+                                checked />Definitely</label>
+    
+                        <label>
+                            <input name="user-recommend" value="maybe" type="radio" class="input-radio" />Maybe</label>
+    
+                        <label>
+                            <input name="user-recommend" value="not-sure" type="radio" class="input-radio" />Not
+                            sure</label>
+                    </div>
+    
+                    <div class="form-group">
+                        <p>What is your favourite products?
+                            <span class="clue">(Check all that apply)</span>
+                        </p>
+    
+                        <label>
+                            <input name="prefer" value="lip" type="checkbox" class="input-checkbox" />Lip products</label>
+    
+                        <label>
+                            <input name="prefer" value="eye" type="checkbox" class="input-checkbox" />Eye products</label>
+    
+                        <label>
+                            <input name="prefer" value="face" type="checkbox" class="input-checkbox" />Face products</label>
+    
+                        <label>
+                            <input name="prefer" value="brushes" type="checkbox" class="input-checkbox" />Brushes</label>
+            </div>
+            </article>
+
+           <!-- <article>
+                <div class="form-group">
+                <p>The new one every month</p> 
+                </div>
+            </article>  -->
+
+        </div>
+        </section>
+
+
+        <div class="block">
+        <p id="description" class="description text-center"> You help us, we will help you.<br />With all love, NYX.</p>
+        <form id="questionnaire">
+                    <div class="form-group">
+                        <p>Any questions, comments or suggestions?</p>
+                        <textarea id="comments" class="input-textarea" name="comment"
+                            placeholder="Enter your comment here..."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" id="submit" class="submit-button">
+                            Submit
+                        </button>
+                    </div>
+                    </form>
+                    </div>
+
+                    
+
+            <div class="website">
+                    <h3>
+                        Full information about NYX professional makeup products, sales and other activities you can find
+                        on the
+                        <a id="website-link" href="https://www.nyxcosmetics.com/" target="_blank">official website.</a>
+                    </h3>
+            </div>
+
+        </form>
+    </main>
+</div>
+</body>
+
+
+<footer class="footer">
+    <p>© This site is intended for US consumers. Cookies and related technology are used for advertising. To learn more or opt-out, visit AdChoices and our Privacy Policy.
+        2022 NYX PROFESSIONAL MAKEUP</p>
+</footer>
+</html>
