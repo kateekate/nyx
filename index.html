@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,31 +7,26 @@
     <meta name="keywords" content="Makeup, Beauty">
     <title>NYX Professional Makeup</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="./app.js"></script>
 </head>
-
 <body>
-    <div class="wrapper">
-    <header>
-        <div class="name">
-            <h1 id="nyx">NYX Professional Makeup</h1>
-        </div>
-    </header>
-
-    <main>
+    
+    <header><h1>NYX Professional Makeup</h1></header>
+   <div class="wrapper"> <main>
         <div class="section">
-
         <div class="info-box">
             <ul>
                 <li><a href="#" class="active">Questionnaire</a></li>
                 <li><a href="#">Challenges</a></li>
                 <li><a href="#">Tab 3</a></li>
             </ul>
-            <article class="active-panel panels">
+
+            <form class="active-panel panels">
                 <div class="form-group">
                     <label id="first-name-label" for="name">Name</label>
-                    <input type="text" name="first-name" id="name" class="form-control" placeholder="First" required />
+                    <input type="text" name="first-name" id="fname" class="form-control" placeholder="First" required />
                     <label id="last-name-label" for="name"></label>
-                    <input type="text" name="last-name" id="name" class="form-control" placeholder="Last" required />
+                    <input type="text" name="last-name" id="lname" class="form-control" placeholder="Last" required />
                 </div>
     
                 <div class="form-group">
@@ -42,22 +36,22 @@
     
                 <div class="form-group">
                         <label id="age-label" for="number">Age</label>
-                        <input type="number" name="age" id="number" min="18" max="99" class="form-control" />
+                        <input type="number" name="age" id="number" min="14" max="99" class="form-control" placeholder="Age" />
                 </div>
     
-                    <div class="form-group">
+                <div class="form-group">
                         <p>How often do you buy cosmetic products?</p>
-                        <select id="dropdown" name="role" class="form-control" required>
+                        <select id="drophere" name="role" class="form-control" required>
                             <option disabled selected value>Select current position</option>
                             <option value="">Very frequently</option>
                             <option value="">Frequently</option>
                             <option value="">Rarely</option>
                             <option value="">Do not shop</option>
                         </select>
-                    </div>
+                </div>
     
                     <div class="form-group">
-                        <p>Do you buy our prodects after watching its advertimes?</p>
+                        <p>Do you buy our products after watching its advertimes?</p>
                         <label>
                             <input name="user-recommend" value="definitely" type="radio" class="input-radio"
                                 checked />Definitely</label>
@@ -108,8 +102,18 @@
     
                         <label>
                             <input name="prefer" value="brushes" type="checkbox" class="input-checkbox" />Brushes</label>
-            </div>
-            </article>
+            </div> 
+        
+
+        <!-- <div class="info-box2">
+            <ul>
+           <li> <h3>#ButterGlossPop</h3></li>
+           <li><h3>#24HoursOfSlay</h3></li>
+        
+</ul> -->
+
+
+        </div>
 
            <!-- <article>
                 <div class="form-group">
@@ -122,12 +126,11 @@
 
 
         <div class="block">
-        <p id="description" class="description text-center"> You help us, we will help you.<br />With all love, NYX.</p>
-        <form id="questionnaire">
+        
                     <div class="form-group">
-                        <p>Any questions, comments or suggestions?</p>
+                        <h3> <i>Any questions, comments or suggestions?</i></h3>
                         <textarea id="comments" class="input-textarea" name="comment"
-                            placeholder="Enter your comment here..."></textarea>
+                            placeholder="Enter your comment here"></textarea>
                     </div>
 
                     <div class="form-group">
@@ -135,27 +138,30 @@
                             Submit
                         </button>
                     </div>
-                    </form>
-                    </div>
-
                     
+        </div>
+
+                    </form>
 
             <div class="website">
                     <h3>
                         Full information about NYX professional makeup products, sales and other activities you can find
                         on the
                         <a id="website-link" href="https://www.nyxcosmetics.com/" target="_blank">official website.</a>
-                    </h3>
+                   </h3>
             </div>
 
-        </form>
+        
     </main>
 </div>
-</body>
 
-
-<footer class="footer">
-    <p>© This site is intended for US consumers. Cookies and related technology are used for advertising. To learn more or opt-out, visit AdChoices and our Privacy Policy.
-        2022 NYX PROFESSIONAL MAKEUP</p>
+<footer>
+    <p>© This site is intended for US consumers. 
+        <br />Cookies and related technology are used for advertising. 
+        <br />To learn more or opt-out, visit AdChoices and our Privacy Policy.
+        <br />
+        <br />2022 NYX PROFESSIONAL MAKEUP</p>
 </footer>
+
+</body>
 </html>
