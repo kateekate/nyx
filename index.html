@@ -7,21 +7,27 @@
     <meta name="keywords" content="Makeup, Beauty">
     <title>NYX Professional Makeup</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="./app.js"></script>
 </head>
 <body>
-    
+    <main>
     <header><h1>NYX Professional Makeup</h1></header>
-   <div class="wrapper"> <main>
+   <div class="wrapper"> 
         <div class="section">
         <div class="info-box">
             <ul>
-                <li><a href="#" class="active">Questionnaire</a></li>
-                <li><a href="#">Challenges</a></li>
-                <li><a href="#">Tab 3</a></li>
+                <li id="questionnaire" class="active">Questionnaire</li>
+                <li id="challenges">Challenges</li>
+                <li id="three">Tab 3</li>
+            </ul>
+
+            <ul id="navigation">
+                <li><a href="#Questionnaire">Questionnaire</a></li>
+                <li><a href="#Challenge">Challenges</a></li>
+                <li><a href="#three">Tab 3</a></li>
             </ul>
 
             <form class="active-panel panels">
+                <div id="questionnaire">
                 <div class="form-group">
                     <label id="first-name-label" for="name">Name</label>
                     <input type="text" name="first-name" id="fname" class="form-control" placeholder="First" required />
@@ -103,16 +109,13 @@
                         <label>
                             <input name="prefer" value="brushes" type="checkbox" class="input-checkbox" />Brushes</label>
             </div> 
-        
+        </div> 
 
-        <!-- <div class="info-box2">
+         <div id="challenges">
             <ul>
            <li> <h3>#ButterGlossPop</h3></li>
            <li><h3>#24HoursOfSlay</h3></li>
-        
-</ul> -->
-
-
+           </ul>
         </div>
 
            <!-- <article>
